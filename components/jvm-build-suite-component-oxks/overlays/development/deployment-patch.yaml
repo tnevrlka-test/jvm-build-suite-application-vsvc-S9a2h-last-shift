@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-oxks
+  namespace: jvm-build-saly-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:277298b7e662888cb74c5ddae5a5bc6d43ed5806f44e547dd47fe0fbe3a5bafa
+        name: container-image
+        resources: {}
+status: {}
