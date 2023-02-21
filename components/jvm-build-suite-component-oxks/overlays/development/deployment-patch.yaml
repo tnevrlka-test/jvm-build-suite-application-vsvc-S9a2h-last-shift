@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:277298b7e662888cb74c5ddae5a5bc6d43ed5806f44e547dd47fe0fbe3a5bafa
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:bb9f0e28554c609fc51384280510b02bf662266f56778d14be4a8633a3454f50
         name: container-image
         resources: {}
 status: {}
