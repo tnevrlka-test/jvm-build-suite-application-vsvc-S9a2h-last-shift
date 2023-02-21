@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-oxks
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:c1d55d65ce0e4009a9d284759e22dbf3
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:277298b7e662888cb74c5ddae5a5bc6d43ed5806f44e547dd47fe0fbe3a5bafa
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
